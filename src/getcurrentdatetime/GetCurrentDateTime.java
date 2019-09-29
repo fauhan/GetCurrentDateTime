@@ -1,23 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package getcurrentdatetime;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 
-/**
- *
- * @author fauhan.pugar
- */
 public class GetCurrentDateTime {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // Example 1: Get Current date and time in default format
         LocalDateTime current1 = LocalDateTime.now();
